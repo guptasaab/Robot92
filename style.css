@@ -34,7 +34,9 @@ h1 {
 
 .head:hover {
 	width: 300px;
-    transition: 1s ease-in-out;
+     -o-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
 }
 
 .upper_body {
@@ -54,13 +56,17 @@ h1 {
 } 
 
 .left_arm:hover { 
-	transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	-moz-transform: rotate(70deg);
+	-webkit-transform: rotate(70deg);
 }	
 .right_arm { 
 	margin-left: 10px; 
 } 
 .right_arm:hover { 
-	transform: rotate(-70deg);
+	-o-transform: rotate(-70deg);
+	-moz-transform: rotate(-70deg);
+	-webkit-transform: rotate(-70deg);
 }
 
 .torso { 
@@ -87,14 +93,18 @@ h1 {
 	margin-left: 40px;}
 
 .left_leg:hover {
-	   transform: rotate(20deg);
+	   -o-transform: rotate(20deg);
+	   -moz-transform: rotate(20deg);
+	   -webkit-transform: rotate(20deg);
 }
 
 .right_leg {
 	margin-left: 40px;
 }
 .right_leg:hover {
-	  transform: rotate(-20deg);
+	  -o-transform: rotate(-20deg);
+	  -moz-transform: rotate(-20deg);
+	  -webkit-transform: rotate(-20deg);
 }
 
 .left_eye, .right_eye { 
